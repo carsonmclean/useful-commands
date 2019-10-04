@@ -12,4 +12,8 @@ set -g display-time 4000
 
 # Automatically renumber windows after closing a window
 set -g renumber-windows on
+
+# Centre window list in status bar
+set -g status-justify centre
+
 ```
