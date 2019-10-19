@@ -1,6 +1,13 @@
 # Cheatsheet
 https://tmuxcheatsheet.com/
 
+# Tricks
+## Type in All Panes Simultaneously
+```bash
+Ctrl + b
+:setw synchronize-panes
+```
+
 # `~/.tmux.conf`
 ```
 # Start windows and panes at 1, not 0
