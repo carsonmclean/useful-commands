@@ -1,5 +1,5 @@
 # General Tips
- - Compression only helps if the network link is quite slow or transferring is otherwise expensive
+ - Compression only helps if the network link is quite slow or transferring is otherwise expensive *and* both ends have sufficient CPU power to compress/decompress.
    - EG: LTE connection/tether
 
 # rsync
