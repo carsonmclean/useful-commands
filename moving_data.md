@@ -2,6 +2,13 @@
  - Compression only helps if the network link is quite slow or transferring is otherwise expensive *and* both ends have sufficient CPU power to compress/decompress.
    - EG: LTE connection/tether
 
+# Python HTTP Server
+```bash
+cd /dir/containing/files
+python3 -m http.server
+```
+Open a web browser on destination computer and navigate to `sourcecomputernameorIPaddress:8000`
+
 # rsync
 
 ## Examples
